@@ -91,43 +91,43 @@
 
 // QOSHIMCHA
 
-// const ELinput1 = document.querySelector("#window1");
-// const ELinput2 = document.querySelector("#window2");
-// const ELinputRES = document.querySelector("#el-input3");
-// const btn1 = document.querySelector("#btn1");
-// const btn2 = document.querySelector("#btn2");
-// const btn3 = document.querySelector("#btn3");
-// const btn4 = document.querySelector("#btn4"); 
-// const btn5 = document.querySelector("#btn5");
+const ELinput1 = document.querySelector("#window1");
+const ELinput2 = document.querySelector("#window2");
+const ELinputRES = document.querySelector("#el-input3");
+const btn1 = document.querySelector("#btn1");
+const btn2 = document.querySelector("#btn2");
+const btn3 = document.querySelector("#btn3");
+const btn4 = document.querySelector("#btn4"); 
+const btn5 = document.querySelector("#btn5");
 
-// btn1.addEventListener("click", function () {
-//   calcplus(ELinput1.value, ELinput2.value);
-// });
+btn1.addEventListener("click", function () {
+  calcplus(ELinput1.value, ELinput2.value);
+});
 
-// btn2.addEventListener("click", function () {
-//   calcminus(ELinput1.value, ELinput2.value);
-// });
+btn2.addEventListener("click", function () {
+  calcminus(ELinput1.value, ELinput2.value);
+});
 
-// btn3.addEventListener("click", function () {
-//   calcincrease(ELinput1.value, ELinput2.value);
-// });
+btn3.addEventListener("click", function () {
+  calcincrease(ELinput1.value, ELinput2.value);
+});
 
-// btn4.addEventListener("click", function () {
-//   calcdivide(ELinput1.value, ELinput2.value);
-// });
+btn4.addEventListener("click", function () {
+  calcdivide(ELinput1.value, ELinput2.value);
+});
 
-// function calcplus(num1, num2) {
-//   ELinputRES.value = Number(num1) + Number(num2);
-// }
+function calcplus(num1, num2) {
+  ELinputRES.value = Number(num1) + Number(num2);
+}
 
-// function calcminus(num1, num2) {
-//   ELinputRES.value = Number(num1) - Number(num2);
-// }
+function calcminus(num1, num2) {
+  ELinputRES.value = Number(num1) - Number(num2);
+}
 
-// function calcincrease(num1, num2) {
-//   ELinputRES.value = Number(num1) * Number(num2);
-// }
+function calcincrease(num1, num2) {
+  ELinputRES.value = Number(num1) * Number(num2);
+}
 
-// function calcdivide(num1, num2) {
-//   ELinputRES.value = Number(num1) / Number(num2);
-// }
+function calcdivide(num1, num2) {
+  ELinputRES.value = Number(num1) / Number(num2);
+}
